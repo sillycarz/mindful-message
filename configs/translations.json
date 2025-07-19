@@ -1,0 +1,12 @@
+{
+  "en": {
+    "reflection_title": "Moment of Reflection",
+    "prompt_1": "Is this accurate and fair?",
+    "cancelled": "Message cancelled"
+  },
+  "vi": {
+    "reflection_title": "Hãy Suy Nghĩ",
+    "prompt_1": "Điều này có chính xác không?",
+    "cancelled": "Đã hủy tin nhắn"
+  }
+}
