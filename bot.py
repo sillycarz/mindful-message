@@ -1,3 +1,16 @@
+import discord
+from discord.ext import commands
+import asyncio
+import aioredis
+from dataclasses import dataclass
+from typing import Optional, List
+import hashlib
+import re
+from datetime import datetime, timedelta
+import numpy as np
+
+# ===== PSYCHOLOGY-BASED HARMFUL DETECTION =====
+
 class PsychologyBasedDetector:
     """
     Dựa trên nghiên cứu tâm lý học về online harm:
