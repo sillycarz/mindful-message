@@ -1,0 +1,65 @@
+{
+  "harmful_patterns": {
+    "severe": {
+      "patterns": [
+        "kill yourself",
+        "kys", 
+        "end it all",
+        "nobody likes you",
+        "better off dead",
+        "world without you"
+      ],
+      "weight": 0.95,
+      "action": "block",
+      "notify_mods": true
+    },
+    "high": {
+      "patterns": [
+        "hate you",
+        "worthless",
+        "pathetic", 
+        "waste of space",
+        "nobody cares"
+      ],
+      "weight": 0.7,
+      "action": "reflect"
+    },
+    "moderate": {
+      "patterns": [
+        "stupid",
+        "idiot",
+        "dumb",
+        "retard",
+        "loser"
+      ],
+      "weight": 0.5,
+      "action": "reflect"
+    },
+    "mild": {
+      "patterns": [
+        "shut up",
+        "nobody asked",
+        "who asked",
+        "didn't ask"
+      ],
+      "weight": 0.3,
+      "action": "warn"
+    }
+  },
+  "safe_contexts": [
+    "joking",
+    "quoting", 
+    "discussing the word",
+    "educational"
+  ],
+  "languages": {
+    "vi": {
+      "patterns": ["ngu", "dốt", "chết đi"],
+      "weight": 0.6
+    },
+    "es": {
+      "patterns": ["idiota", "estúpido", "inútil"],
+      "weight": 0.6
+    }
+  }
+}
